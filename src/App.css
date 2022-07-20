@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', sans-serif;
+}
+.btn-primary {
+  background-color: #1b8bd6 !important;
+  padding: 7px 20px;
+  border-radius: 0;
+  font-weight: 500;
+  border: none !important;
+  color: #fff !important;
+}
+.btn-success,
+.btn-danger {
+  padding: 7px 20px;
+  border-radius: 0;
+  font-weight: 500;
+  border: none !important;
+}
+.btn-primary:hover {
+  background-color: #0a4872 !important;
+}
+.btn-warning {
+  padding: 7px 20px;
+  border-radius: 0;
+  background-color: #f39c12 !important;
+  font-weight: 500;
+  border: none !important;
+}
+.btn-warning:hover {
+  background-color: #f1c40f !important;
+}
+
+.error {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-color: ghostwhite;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.error h1 {
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 0px 0px 5px rgb(226, 131, 147);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(199, 194, 194);
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 5px 15px gainsboro;
+}
+.cur {
+  cursor: pointer;
+}
+.mbneg {
+  margin-bottom: -7px;
+}
+
+.matchcom {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+.masmall {
+  padding: 2px 7px;
+  background: grey;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 10px;
+  margin: 1px;
+}

@@ -1,0 +1,125 @@
+.home{
+width: 100%;
+min-height: 90vh;
+background-color: ghostwhite;
+
+padding: 50px 0;
+}
+
+.homee{
+  width: 100%;
+  min-height: 90vh;
+  background-color: ghostwhite;
+  
+  padding: 75px 0;
+  }
+.pagination {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding-top: 50px;
+    color: #000000;
+    margin: auto;
+  }
+  .pagination a {
+    padding: 5px 8px;
+    margin: 10px;
+    border: 2px solid #3b8af2;
+    color: #000000 !important;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px !important;
+  }
+  .pagination a:hover {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #3b8af2;
+  }
+  .activebutton a {
+    background-color: #3b8af2;
+    color: #fff !important;
+  }
+
+.home h1{
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    
+}
+.home h4{
+    color: #fff;
+    font-size: 20px;
+    
+}
+.home h4 span{
+    color:  #090cd1;
+    font-weight: 600;
+    cursor: pointer;
+}
+.home h4 span:hover{
+    color: #3498db;
+   
+}
+
+@media (max-width:450px) {
+    
+    .home h1{
+        font-size: 45px;
+        padding: 50px;
+    }
+   
+ }
+ .hideshow{
+display: block;
+}
+.showhide{
+  display: none;
+}
+
+
+ @media (max-width:600px) {
+    
+    .home h1{
+        font-size: 45px;
+        
+    }
+    .home h4{
+        padding: 15px;
+        
+    }
+    .hideshow{
+display: none;
+    }
+    .showhide{
+      display: block;
+        }
+   
+}
+
+
+
+.jobitem {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgba(130, 130, 243, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: ghostwhite;
+    padding: 3px 10px;
+    margin-bottom: 3px;
+  }
+
+
+
+  .home .btn{
+    padding: 1px 2px;
+    border: none;
+    
+    margin-left: 5px;
+  }
+  .home .btn-warning, .home .btn-danger{
+    padding: 2px 4px !important;
+  }

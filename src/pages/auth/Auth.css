@@ -1,0 +1,56 @@
+.auth {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: ghostwhite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.auth::before {
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url('https://raw.githubusercontent.com/atanu20/front-end-webdev/master/image/onee.svg');
+
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 30%;
+}
+
+.auth::after {
+  position: absolute;
+  content: '';
+  top: 0px;
+  right: 0;
+
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url('https://raw.githubusercontent.com/atanu20/front-end-webdev/master/image/twoo.svg');
+
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 30%;
+}
+
+.dis {
+  cursor: no-drop !important;
+}
+.padd {
+  padding: 50px 0;
+}
+
+@media (max-width: 600px) {
+  .auth::before {
+    background-size: 50%;
+  }
+}

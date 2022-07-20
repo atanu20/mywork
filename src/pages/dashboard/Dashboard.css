@@ -1,0 +1,17 @@
+.dashboard
+{
+    padding: 50px 10px;
+    width: 100%;
+    min-height: 90vh;
+    background-color: ghostwhite;
+
+}
+
+.boxcard{
+    padding: 5px;
+    box-shadow: 0px 2px 5px grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
