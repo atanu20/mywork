@@ -17,7 +17,7 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
   const [myData, setMyData] = useState([]);
   const [pageNo, setPageNo] = useState(0);
-  const perpage = 5;
+  const perpage = 9;
   const pagevisit = pageNo * perpage;
 
   const dataall = myData?.slice(pagevisit, pagevisit + perpage);
